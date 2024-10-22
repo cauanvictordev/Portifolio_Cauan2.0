@@ -1,0 +1,1269 @@
+/* Adicione em seu arquivo CSS */
+a {
+    color: #3498db; /* Cor dos links */
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #7a7a7a; /* Cinza mais claro */
+}
+
+.C-title h1{
+    color: #ff0000; /* Cinza claro */
+    font-size: 4.8rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.C-title p{
+    color:#ffffff; /* Branco suave */
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: 5rem;
+    margin-right: 5rem; /* Add right margin for better spacing */
+    text-align: justify; /* Justify-align the paragraph */
+    margin-top: 3rem;
+}
+
+/* Adicione em seu arquivo CSS */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.C-title,
+.Container-card-1 {
+    animation: fadeIn 1s ease-in-out;
+}
+
+hr{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    margin-top: 15px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color:  #394240; /* Cinza escuro */
+    background-color:  #394240; /* Cinza escuro */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 1.5rem 0;
+}
+
+/* Estilos para a classe .C-icon */
+.C-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 200px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centralizar a .C-icon na tela, opcional */
+}
+
+.C-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 200px; /* Ajuste conforme necessário */
+    margin: 60px; /* Centralizar a .C-icon na tela, opcional */
+}
+
+.Icone {
+    display: inline-block;
+}
+
+.Icone ion-icon {
+    font-size: 24px; /* Tamanho do ícone, ajuste conforme necessário */
+    color: #ffffff; /* Cor do ícone, ajuste conforme necessário */
+}
+
+.Icone img {
+    width: 24px; /* Ajuste conforme necessário */
+    height: 24px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Adicione uma borda arredondada ao ícone de imagem, opcional */
+    object-fit: cover; /* Garante que a imagem mantenha sua proporção dentro do contêiner */
+    margin-left: 35px; /* Espaçamento à esquerda entre os ícones, ajuste conforme necessário */
+}
+
+.background img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center -45px; /* Ajusta a posição da imagem para mostrar mais conteúdo acima */
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: block;
+    margin: -10px auto 0;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    margin-left: 40%; /* Mover 40% para a esquerda */
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin: 0;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #ff5e00;
+}
+
+
+.C-title {
+    background: url('./tela\ inicial.jpg') center top fixed no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.background {
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+}
+
+.about-section {
+    background-color: #394240; /* Cinza escuro */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-section h1 {
+    color: #ffffff; /* Branco */
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    color: #ffffff; /* Branco */
+    margin-bottom: 40px;
+}
+
+.about-section img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.service-section {
+    background-color: #3498db; /* Azul */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-section h1 {
+    color: #ffffff; /* Branco */
+    margin-bottom: 30px;
+}
+
+.service-section p {
+    color: #ffffff; /* Branco */
+    margin-bottom: 40px;
+}
+
+.service-section .services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-section .service-box {
+    flex-basis: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #2980b9; /* Azul mais escuro */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.service-section .service-box:hover {
+    background-color: #2c3e50; /* Azul mais escuro */
+}
+
+.service-section .service-box h3 {
+    color: #ffffff; /* Branco */
+}
+
+.service-section .service-box p {
+    color: #ffffff; /* Branco */
+}
+
+.contact-section {
+    background-color: #27ae60; /* Verde */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h1 {
+    color: #ffffff; /* Branco */
+    margin-bottom: 30px;
+}
+
+.contact-section p {
+    color: #ffffff; /* Branco */
+    margin-bottom: 40px;
+}
+
+.contact-section .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-section .contact-form button {
+    padding: 10px 20px;
+    background-color: #2ecc71; /* Verde mais escuro */
+    color: #ffffff; /* Branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section .contact-form button:hover {
+    background-color: #27ae60; /* Verde */
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 768px) {
+    .navigation {
+        margin-left: 10%; /* Mover 10% para a esquerda */
+    }
+
+    .background img {
+        margin-left: 0; /* Remover o espaço à esquerda entre os ícones */
+    }
+
+    .C-title h1 {
+        font-size: 3.2rem; /* Reduzir o tamanho da fonte do título */
+    }
+
+    .C-title p {
+        margin-left: 2rem; /* Reduzir a margem esquerda do parágrafo */
+        margin-right: 2rem; /* Reduzir a margem direita do parágrafo */
+    }
+
+    .service-section .service-box {
+        flex-basis: 45%; /* Reduzir a largura dos boxes de serviço */
+    }
+}
+
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #4adfd7;
+    border-radius: 10px;
+    border-top: 2px solid  #394240; /* Cinza escuro */
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+}
+
+.social-links a {
+    text-decoration: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px; /* Adiciona margem entre os links sociais */
+}
+
+.social-links img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #00fc37;
+    box-shadow: 0 0 10px rgb(4, 134, 255);
+    margin: 0 100px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(233, 32, 32);
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e94707;
+}
+
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #00fc37;
+    box-shadow: 0 0 10px rgb(0, 255, 191);
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation a {
+        margin: 10px 0;
+    }
+}
+
+.card-img {
+    max-width: 100%;
+    width: 120px;
+    height: auto;
+}
+
+/* Reset de estilos padrão para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #394240; 
+    color: #333;
+}
+
+/* Estilo para a seção "Sobre Mim" */
+#sobre-mim {
+    padding: 50px 0;
+    text-align: center;
+    position: relative; /* Adiciona posição relativa para permitir posicionar elementos filhos */
+}
+
+/* Estilo para a imagem na seção "Sobre Mim" */
+.Sobre-img {
+    flex: 1;
+    max-width: calc(400px + 50px); /* Aumente o tamanho da imagem */
+    margin-right: 20px;
+    position: relative; /* Adiciona esta propriedade para que a imagem possa ser posicionada em relação a este contêiner */
+}
+
+.Sobre-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adicione borda arredondada à imagem, se desejar */
+    position: relative; /* Adicione esta propriedade para que a imagem possa ser posicionada em relação a este contêiner */
+    z-index: 1; /* Certifique-se de que a imagem esteja acima da cor de fundo */
+}
+
+/* Estilo para o bloco de texto na seção "Sobre Mim" */
+.Sobre-mim-title {
+    flex: 1;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto; /* Centraliza o bloco de texto */
+    z-index: 2; /* Certifique-se de que o texto esteja acima da cor de fundo */
+}
+
+/* Estilo para o contêiner da seção "Sobre Mim" */
+.Sobre_Mim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222; /* Cor de fundo mais escura para simular trovões */
+    max-width: 100%;
+    width: calc(100% - 100px);
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #000; /* Borda mais escura para um visual mais sóbrio */
+}
+
+/* Estilo para o texto na seção "Sobre Mim" */
+.Sobre-mim-title {
+    color: #fff; /* Cor do texto branco para contrastar com o fundo escuro */
+    text-align: center; /* Alinhamento centralizado */
+    z-index: 2; /* Garante que o texto esteja acima dos flashes de trovão */
+    position: relative; /* Mantém a posição relativa para z-index funcionar */
+}
+
+.Sobre-mim-title h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.Sobre-mim-title p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o botão "Encomende o seu já" */
+.encomendar-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branca */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para a mudança de cor */
+    margin-left: auto;
+    margin-right: 20px;
+ }
+
+.contact-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #00b386;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-90px); /* Move da esquerda */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(50); /* Volta à posição original */
+    }
+}
+
+/* Animação de borda ao passar o mouse */
+.education-container {
+    border-left-color: #ced4da33; /* Define a cor inicial da borda esquerda */
+}
+
+.education-container:hover {
+    border-left-color: #001aff; /* Muda a cor da borda para vermelho quando o mouse passa por cima */
+}
+
+
+.education-container {
+    background-color: #f8f9fa;
+    border: 2px solid #ced4da33;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px auto; /* Centraliza o container na página */
+    max-width: 800px; /* Define a largura máxima para melhor legibilidade */
+    position: relative; /* Permite centralizar verticalmente */
+    left: -100%; /* Define o início da borda para fora da tela na esquerda */
+    animation: slideIn 0.5s forwards; /* Aplica a animação de slideIn à seção de educação */
+}
+
+@keyframes slideIn {
+    from {
+        left: -100%; /* Começa fora da tela na esquerda */
+    }
+    to {
+        left: 25%; /* Para na metade do caminho */
+    }
+}
+
+.education-content {
+    max-width: 600px;
+    margin: 0; /* Remova a margem para que o conteúdo fique colado à borda */
+    padding-left: 10px; /* Adicione um recuo interno para compensar a borda */
+}
+
+.education-content h3 {
+    text-align: center;
+    font-size: 24px; /* Reduz o tamanho da fonte do título */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Reduz a margem inferior */
+    margin-left: 5%; /* Move o título 35% para a direita */
+}
+
+.education-details {
+    padding-left: 35%; /* Adiciona recuo interno de 35% para o conteúdo */
+}
+
+.education-details p {
+    font-size: 20px; /* Reduz o tamanho da fonte do conteúdo */
+    color: #555;
+    margin-left: -50%; /* Move o texto 30% para a esquerda */
+    margin-bottom: 3px; /* Reduz a margem inferior entre os itens */
+    line-height: 1.4; /* Reduz o espaçamento entre as linhas */
+    letter-spacing: 5%; /* Adiciona 5% de espaçamento entre as letras */
+}
+
+.education-details p strong {
+    font-weight: bold; /* Mantém o peso da fonte em negrito */
+}
+
+
+/* Estilos para a seção */
+.section-1 {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo para o contêiner do objetivo */
+.objective-container {
+    background-color: #f8f9fa;
+    border: 2px solid #ced4da33;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px auto; /* Centraliza o container na página */
+    max-width: 800px; /* Define a largura máxima para melhor legibilidade */
+    position: relative; /* Permite centralizar verticalmente */
+    left: -100%; /* Define o início da borda para fora da tela na esquerda */
+    animation: slideIn 0.5s forwards; /* Aplica a animação de slideIn à seção de educação */
+}
+
+@keyframes slideIn {
+    from {
+        left: -100%; /* Começa fora da tela na esquerda */
+    }
+    to {
+        left: 25%; /* Para na metade do caminho */
+    }
+}
+
+/* Estilo para o contêiner do objetivo */
+.objective-container {
+    transition: border-color 0.3s; /* Adiciona uma transição suave para a mudança de cor da borda */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o contêiner */
+    left: 0; /* Define o início da borda na tela */
+    animation: slideOut 1s forwards; /* Aplica a animação de slideOut */
+}
+
+@keyframes slideOut {
+    from {
+        left: 0; /* Começa na tela */
+    }
+    to {
+        left: -30%; /* Termina fora da tela na esquerda */
+    }
+}
+
+.objective-container:hover {
+    border-color: #ff0000; /* Muda a cor da borda para azul quando o mouse passa por cima */
+}
+
+.objective-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: right; /* Alinha o texto à direita */
+    margin-right: 20%; /* Define 15% de margem à direita */
+}
+
+.objective-container ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão */
+   
+}
+
+.objective-container li {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px; /* Adiciona uma margem inferior de 10px */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-left: 25%; /* Adiciona 15% de margem à direita */
+}
+
+.objective-container li strong {
+    font-weight: bold; /* Mantém o peso da fonte em negrito */
+}
+
+/* Container das habilidades */
+.skills-container {
+    background-color: #f8f9fa;
+    border: 2px solid #ced4da33;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    animation: fadeIn 1s ease forwards;
+    transition: border-color 0.3s; /* Adiciona uma transição suave para a mudança de cor da borda */
+}
+
+/* Efeito de hover para o container */
+.skills-container:hover {
+    border-color: #00ffb3;  /* Muda a cor da borda quando o mouse passa por cima */
+}
+
+/* Conteúdo das habilidades */
+.skills-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Título das habilidades */
+.skills-content h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Lista das habilidades */
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Item de habilidade */
+.skill-item {
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: fadeInListItem 1s ease forwards;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o transform */
+}
+
+/* Efeito de hover para o item de habilidade */
+.skill-item:hover {
+    transform: translateY(-5px); /* Eleva o item quando o mouse passa por cima */
+}
+
+/* Título do item de habilidade */
+.skill-item h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Descrição do item de habilidade */
+.skill-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Animação de entrada para cada item */
+@keyframes fadeInListItem {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animação de entrada para o container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.disponibilidade {
+    background-color: #f8f9fa;
+    border: 2px solid #ced4da33;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px;
+    transition: border-color 0.3s; /* Adiciona uma transição suave para a mudança de cor da borda */
+    position: relative; /* Adiciona posição relativa para controlar o movimento */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o contêiner */
+    left: -100%; /* Define o início da borda para fora da tela na esquerda */
+    animation: slideIn 0.5s forwards; /* Aplica a animação de slideIn */
+}
+
+@keyframes slideIn {
+    from {
+        left: -150%; /* Começa fora da tela na esquerda */
+    }
+    to {
+        left: 30%; /* Termina na posição original */
+    }
+}
+
+.disponibilidade:hover {
+    border-color: #00ffb3; /* Muda a cor da borda para azul quando o mouse passa por cima */
+}
+
+.disponibilidade h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; /* Alinha o h3 à direita */
+    margin-right: 30%; /* Move o texto 30% para a direita */
+}
+
+.disponibilidade p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    text-align: center; /* Alinha o parágrafo à direita */
+    margin-top: 10px; /* Adiciona uma margem superior de 10px */
+    margin-bottom: 15px; /* Adiciona uma margem inferior de 15px */
+    margin-right: 30%; /* Move o texto 30% para a direita */
+}
+
+/* Container das habilidades pessoais */
+.personal-skills-container {
+    background-color: #ffffff;
+    border: 2px solid transparent; /* Cor da borda transparente por padrão */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    animation: fadeIn 1s ease forwards;
+}
+
+/* Conteúdo das habilidades pessoais */
+.personal-skills-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Título das habilidades pessoais */
+.personal-skills-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Lista de habilidades pessoais */
+.personal-skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Item de habilidade pessoal */
+.personal-skill-item {
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de hover para o item de habilidade pessoal */
+.personal-skill-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Título do item de habilidade pessoal */
+.personal-skill-item h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Descrição do item de habilidade pessoal */
+.personal-skill-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Animação de entrada para o container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Bordar azul apenas quando o usuário passa o mouse sobre o contêiner */
+.personal-skills-container:hover {
+    border-color: #ff0000; /* Cor da borda azul */
+}
+
+/* Estilos para a seção */
+.interests-motivations-container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo para o contêiner de interesses e motivações */
+.interests-motivations-content {
+    background-color: #f8f9fa;
+    border: 2px solid #ced4da33;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px auto; /* Centraliza o container na página */
+    max-width: 800px; /* Define a largura máxima para melhor legibilidade */
+    position: relative; /* Permite centralizar verticalmente */
+    left: -100%; /* Define o início da borda para fora da tela na esquerda */
+    animation: slideIn 0.5s forwards; /* Aplica a animação de slideIn à seção de educação */
+}
+
+@keyframes slideIn {
+    from {
+        left: -100%; /* Começa fora da tela na esquerda */
+    }
+    to {
+        left: 25%; /* Para na metade do caminho */
+    }
+}
+
+/* Estilo para o contêiner de interesses e motivações */
+.interests-motivations-content {
+    transition: border-color 0.3s; /* Adiciona uma transição suave para a mudança de cor da borda */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o contêiner */
+    left: 0; /* Define o início da borda na tela */
+    animation: slideOut 1s forwards; /* Aplica a animação de slideOut */
+}
+
+@keyframes slideOut {
+    from {
+        left: 0; /* Começa na tela */
+    }
+    to {
+        left: -30%; /* Termina fora da tela na esquerda */
+    }
+}
+
+.interests-motivations-content:hover {
+    border-color: #0066ff; /* Muda a cor da borda para azul quando o mouse passa por cima */
+}
+
+.interests-motivations-title {
+    font-size: 22px; /* Reduz 10% do tamanho original */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: right; /* Alinha o texto à direita */
+    margin-right: 20%; /* Define 10% de margem à direita */
+}
+
+.interests-motivations-list {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+.interests-motivations-item {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px; /* Adiciona uma margem inferior de 10px */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-left: 25%; /* Adiciona 25% de margem à esquerda */
+}
+
+.interests-motivations-item strong {
+    font-weight: bold; /* Mantém o peso da fonte em negrito */
+}
+
+.section-1 h1 {
+    text-align: center;
+    color: #1d7cc9;
+    font-size: 3rem;
+}
+
+.section-1 span {
+    color: #00d47c;
+}
+
+.section-2 h1 {
+    text-align: center;
+    color: #c91d1d;
+    font-size: 3rem;
+}
+
+.section-2 span {
+    color: #00bcd4;
+}
+
+/* Estilos para a seção 'mais-pedidos' */
+.Container-card-1, .Container-card-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img {
+    position: relative;
+    border: solid 1px rgb(4, 255, 242);
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    width: calc(33.3333% - 20px); /* Ajustado para 33.3333% e subtraído 20px para a margem entre os itens */
+    margin-bottom: 20px; /* Adicionado para criar espaço entre os itens */
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img h3 {
+    font-size: 1.5rem;
+    color: #e4e4e4;
+}
+
+.card-img p {
+    font-size: 1.2rem;
+    color: #e4e4e4;
+    margin-top: 1rem;
+}
+
+.card-img button {
+    margin-top: 1rem;
+    background-color: #c91d1d;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card-img span {
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.card-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Cor da luz de fundo semi-transparente */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-img:hover {
+    transform: translateY(-5px);
+    background-color: #68cff8;
+}
+
+.card-img:hover::before {
+    opacity: 1;
+}
+
+.card-img:hover img {
+    transform: scale(1.05);
+}
+
+
+
+
+.full-width {
+    width: 0%;
+    height: auto;
+}
+
+.partial-width {
+    width: 65%;
+    height: auto;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-image: linear-gradient(to right,  #ff0000, #000000); /* Gradiente de fundo */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Estilos para o nome "Feedback" no hover */
+.section-5:hover {
+    transform: translateY(-5px);
+    background-image: linear-gradient(to right,  #1d7cc9, #000000);/* Gradiente de fundo no hover */
+}
+
+/* Estilos para o container do formulário */
+.container-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: #4863fb;
+    padding: 2rem;
+    width: 50rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para o título do formulário */
+form h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #d61b1b;
+    margin-bottom: 2rem;
+}
+
+/* Estilo escuro */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.feedback-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    background-image: linear-gradient(to right, #1a1a1a, #444444);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+.feedback-section:hover {
+    animation: none;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.feedback-form {
+    background-color: #333;
+    padding: 2rem;
+    width: 50rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.feedback-form:hover {
+    transform: translateY(-5px);
+}
+
+.feedback-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #d61b1b;
+    margin-bottom: 2rem;
+}
+
+.inputform {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.inputform input, .inputform textarea, .inputform select {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    background: #444;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.inputform input::placeholder {
+    color: #aaa;
+}
+
+.inputform input:focus {
+    color: #fff;
+}
+
+.inputform span {
+    font-size: 1.5rem;
+    color: #ff6b6b;
+    margin-right: 1rem;
+}
+
+.inputform:hover span {
+    color: #ff0000;
+}
+
+.inputform select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #444;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.inputform select option {
+    color: #fff;
+    background-color: #444;
+}
+
+.inputform select option:checked:before {
+    content: '★';
+    display: inline-block;
+    color: #ffc107;
+    font-size: 1.5rem;
+}
+
+.inputform select option:hover:before {
+    transform: scale(1.2);
+    color: #ff6b6b;
+}
+
+.feedback-form button {
+    margin-top: 2rem;
+    background-color: #4CAF50;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #45a049;
+}
+
+.success-message {
+    display: none;
+    color: green;
+    margin-top: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
